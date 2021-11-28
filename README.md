@@ -53,5 +53,7 @@ print (table.draw()) .
   1   | REFI DAUS          | 31171769    | 90            | 90            | 100          |  93.500     |
   2   | SAHRUL         | 1171798     | 90            | 80            | 90           |  86.500     |
 
+HASIL INPUT :
 ![gambar 2](screenshot/scr2.png) <p>
+HASIL OUTPUT :
 ![gambar 3](screenshot/scr3.png) <p>
