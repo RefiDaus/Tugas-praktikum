@@ -6,3 +6,10 @@ Input NIM<p>
 Input NILAI TUGAS<p>
 Input Nilai UAS<p>
 Input Nilai AKHIR<P>
+disini saya juga menggunakan fungsi list untuk program input pada koding ini, yaitu menggunakan Python ListMethods : Append () menambahkan item dari belakang .<p>
+selain itu saya menggunakan perintah while untuk mengulang pertanyaan yang akan diinput<p>
+    while(jawab == "y"):
+    nama.append(input("Masukan Nama :"))
+    nim.append(input("Masukan Nim :"))
+    nilai_tugas.append(input("Nilai Tugas :"))
+    nilai_uts.append(input("Nilai UTS :"))
