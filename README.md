@@ -40,18 +40,18 @@ Akhir=(int(Tugas)* .30) + (int(uts)* .35) + (int(uas)* .35)
 if ulangi .lower()== 't' :
         break
 ```
-## Digunakan untuk melakukan perulangan atau iterasi sampai batas atau range yang telah ditentukan.
+## Untuk menambahkan baris pada tabel. untuk menampilkan karakter bisa ditambahkan tanda (' ') dan untuk menampilkan hasil dari input tidak menggunakan tanda petik. dan untuk perhitungan nilai akhir menggunakan operator aritmatika perkalian dan penjumlahan.
 ```javascript
-table.add_rows([['No','Nama','NIM','TUGAS','UTS','UAS','AKHIR'],[i+1, nama[i],nim[i],nilai_tugas[i],nilai_uts[i],nilai_uas[i],akhir]])
-print (table.draw()) .
+print("\nDaftar Nama\n")
+print("==================================================")
+print("|  NIM  |  Nama  | Tugas | UTS |  UAS  |  Akhir  |")
+print("==================================================")
+for x in data:
+    print("|  {0:1}  |  {1:1}  |  {2:1}  |  {3:1}  |  {4:1}  |  {5:1}  |".format(x[0], x[1], x[2], x[3], x[4], x[5]))
+print("==================================================")
 ```
-### Untuk menambahkan baris pada tabel. untuk menampilkan karakter bisa ditambahkan tanda (' ') dan untuk menampilkan hasil dari input tidak menggunakan tanda petik. dan untuk perhitungan nilai akhir menggunakan operator aritmatika perkalian dan penjumlahan.
 
-### Untuk hasil output nya :
-  No  | Nama           | NIM         | Nilai Tugas   | Nilai UTS     | Nilai UAS    | Nilai Akhir |
-  ----| -------------- | ----------- |---------------|---------------|--------------|-------------|
-  1   | REFI DAUS          | 31171769    | 90            | 90            | 100          |  93.500     |
-  2   | SAHRUL         | 1171798     | 90            | 80            | 90           |  86.500     |
+
 
 HASIL INPUT :
 ![gambar 2](screenshot/scr2.png) <p>
