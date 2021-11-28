@@ -31,22 +31,27 @@ while(True):
 
 ### Maka outputnya akan ada pertanyaan tambah data jika jawab "y" maka pertanyaan akan terulang kembali dan diiput kembali seperti sebelumnya, jika menjawab "t" maka perintah selesai dan keluar output hasil inputan. dengan cara itu kita bisa menginput lebih dari 1 inputan atau sesuai yg kita inginkan.
 ```javascript
-nilai_uas.append(input("Nilai UAS :"))
-jawab = input("Tambah data (y/t)?")
+Akhir=(int(Tugas)* .30) + (int(uts)* .35) + (int(uas)* .35)
+    data.append([nim, Nama, Tugas, uts, uas, Akhir])
+    ulangi=input("Tambah data (y/t)?")
 ```
 ## PERINTAH 
 ```javascript
-for i in range(no) : 
+if ulangi .lower()== 't' :
+        break
 ```
 ## Digunakan untuk melakukan perulangan atau iterasi sampai batas atau range yang telah ditentukan.
 ```javascript
 table.add_rows([['No','Nama','NIM','TUGAS','UTS','UAS','AKHIR'],[i+1, nama[i],nim[i],nilai_tugas[i],nilai_uts[i],nilai_uas[i],akhir]])
 print (table.draw()) .
 ```
-### 'Table.add_row' untuk menambahkan baris pada tabel. untuk menampilkan karakter bisa ditambahkan tanda (' ') dan untuk menampilkan hasil dari input tidak menggunakan tanda petik. dan untuk perhitungan nilai akhir menggunakan operator aritmatika perkalian dan penjumlahan.
+### Untuk menambahkan baris pada tabel. untuk menampilkan karakter bisa ditambahkan tanda (' ') dan untuk menampilkan hasil dari input tidak menggunakan tanda petik. dan untuk perhitungan nilai akhir menggunakan operator aritmatika perkalian dan penjumlahan.
 
 ### Untuk hasil output nya :
   No  | Nama           | NIM         | Nilai Tugas   | Nilai UTS     | Nilai UAS    | Nilai Akhir |
   ----| -------------- | ----------- |---------------|---------------|--------------|-------------|
   1   | REFI DAUS          | 31171769    | 90            | 90            | 100          |  93.500     |
   2   | SAHRUL         | 1171798     | 90            | 80            | 90           |  86.500     |
+
+![gambar 2](screenshot/scr2.png) <p>
+![gambar 3](screenshot/scr3.png) <p>
