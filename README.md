@@ -4,9 +4,9 @@
 
 ## Entry Input Pada Program Ini Adalah : 
 <ul>
-   <li>Input <b>NAMA</b> </li>
-   <li>Input <b>NIM</b></li>
-   <li>Input <b>NILAI TUGAS</b></li>
+   <li>Input <b>Nama</b> </li>
+   <li>Input <b>Nim</b></li>
+   <li>Input <b>NILAI Tugas</b></li>
    <li>Input <b>Nilai Uas</b></li>
    <li>Input <b>Nilai Akhir</b></li>
 </ul>
@@ -16,7 +16,7 @@
 
 
 
-### disini saya juga menggunakan fungsi list untuk program input pada koding ini, yaitu menggunakan Visual Studi : Append () menambahkan item dari belakang . 
+### Disini saya juga menggunakan fungsi list untuk program input pada koding ini, yaitu menggunakan Visual Studi Code. 
 ### selain itu saya menggunakan perintah while untuk mengulang pertanyaan yang akan diinput 
 
 ```javascript
@@ -53,7 +53,7 @@ print("==================================================")
 
 
 
-HASIL INPUT :
+### HASIL INPUT :
 ![gambar 2](screenshot/scr2.png) <p>
-HASIL OUTPUT :
+### HASIL OUTPUT :
 ![gambar 3](screenshot/scr3.png) <p>
